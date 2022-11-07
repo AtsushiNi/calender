@@ -15,7 +15,7 @@ const firebaseConfig = {
   measurementId: process.env.MEASUREMENT_ID
 }
 
-const app = initializeApp(firebaseConfig)
+initializeApp(firebaseConfig)
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
